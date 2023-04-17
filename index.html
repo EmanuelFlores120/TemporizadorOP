@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temporizador estilo one piece</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Temporizador One Piece</h1>
+        <div class="timer-container">
+          <div id="timer" class="timer">00:00:00</div>
+        </div>
+        <div class="input-group">
+          <input type="number" id="inputTime" class="input-time" placeholder="Ingrese tiempo en segundos">
+          <button onclick="startTimer()" class="btn">Iniciar</button>
+          <button onclick="pauseTimer()" class="btn">Pausar</button>
+          <button onclick="resetTimer()" class="btn">Reiniciar</button>
+        </div>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>

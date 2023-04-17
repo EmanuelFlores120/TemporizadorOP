@@ -1,0 +1,65 @@
+body {
+    background-image: url(/img/one-piece-artwork_3840x2160_xtrafondos.com.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .title {
+    color: #7c7e06d0;
+    font-size: 36px;
+    margin-bottom: 32px;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(251, 255, 0), 0 0 0.2em rgb(238, 255, 0);
+   color: rgb(0, 0, 0);
+   font: 1.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+  }
+  
+  .timer-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 24px;
+    border-radius: 8px;
+    margin-bottom: 32px;
+  }
+  
+  .timer {
+    font-size: 64px;
+    color: #e5ff006b;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-time {
+    width: 200px;
+    height: 48px;
+    font-size: 18px;
+    padding: 8px;
+    margin-right: 8px;
+    background-color: #aac02b;
+    border: 0;
+    border-radius: 8px;
+  }
+  
+  .btn {
+    background-color: #e74c3c;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #c0392b;
+  }
+  
